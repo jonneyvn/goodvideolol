@@ -7,10 +7,29 @@ and open the template in the editor.
     Created on : Nov 14, 2016, 11:13:43 PM
     Author     : Viet
 */
-
-body{
-    
+/*Ipad ngang(1024 x 768)*/
+h1,h2{
+    color: #cc3300;
 }
-h1{
-    color: #ff3333;
+.post-preview img{
+ float: left; padding-right: 10px; width: 120px; height: 80px;
+}
+.post-preview a .post-title{
+        font-size: 16px;
+    }
+    .main-blg hr{
+        clear: left;
+    }
+@media(max-width: 480px){
+    
+    .post-preview{min-height: 80px;}
+}
+@media (max-width: 767px){
+    .post-preview{min-height: 80px;}
+}
+@media (min-width: 768px) and (max-width: 979px){
+    .post-preview{min-height: 100px;}
+}
+@media (min-width: 1200px){
+ .post-preview{min-height: 90px;}  
 }
